@@ -45,7 +45,7 @@ export default class HeadComponent extends Component {
 		});
 		hotjar.initialize(3763529, 6);
 	}
-
+	
 	render() {
 		const gasource = "https://www.googletagmanager.com/gtag/js?id="+process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS;
 		return <>
