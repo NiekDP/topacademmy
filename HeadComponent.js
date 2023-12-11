@@ -93,3 +93,4 @@ export default class HeadComponent extends Component {
 HeadComponent.propTypes = {
 	socialTags: PropTypes.object
 };
+ 
